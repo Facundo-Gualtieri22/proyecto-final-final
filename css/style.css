@@ -275,32 +275,32 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed; }
+    .cuerpo-prog .titulo {
+      margin: 0%;
+      margin-bottom: 0%;
+      padding: 10px;
+      padding-left: 5%;
+      color: #ae9726;
+      background-color: #2e2e30;
+      border: solid 3px #9f8b6a;
+      border-bottom: none;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif; }
+    .cuerpo-prog .sub-titulo {
+      border: 3px solid #9f8b6a;
+      border-top: none;
+      background-color: #2e2e30;
+      margin: 50px;
+      margin-top: 0%;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-bottom: 10px;
+      padding-left: 15px;
+      padding-bottom: 8px;
+      color: #ae9726;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px; }
   /* index */
-  .titulo {
-    margin: 0%;
-    margin-bottom: 0%;
-    padding: 10px;
-    padding-left: 5%;
-    color: #ae9726;
-    background-color: #2e2e30;
-    border: solid 3px #9f8b6a;
-    border-bottom: none;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif; }
-  .sub-titulo {
-    border: 3px solid #9f8b6a;
-    border-top: none;
-    background-color: #2e2e30;
-    margin: 50px;
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    padding-bottom: 8px;
-    color: #ae9726;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px; }
   .menu-clase {
     color: #ae9726;
     font-family: Arial, Helvetica, sans-serif;
