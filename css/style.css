@@ -54,6 +54,8 @@
   margin-right: 100px;
   text-align: center;
   border: #9f8b6a solid 2px; }
+  .parrafo-clase:hover {
+    color: yellow; }
 
 .clase-listas {
   text-align: center;
@@ -549,11 +551,9 @@
     background-color: #2e2e30;
     box-sizing: unset; }
   .div-ubicacion {
-    /* margin: 30px; */
     display: flex;
     color: #ae9726;
     font-size: 12px;
-    /* margin: 50px; */
     margin-left: 10px;
     margin-right: 10px;
     background-color: #2e2e30;

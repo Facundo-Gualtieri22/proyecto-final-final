@@ -61,6 +61,9 @@ margin-left: 100px;
 margin-right: 100px;
 text-align: center;
 border: #9f8b6a solid 2px;
+&:hover{
+    color: yellow;
+}
 }
 .clase-listas {
 	text-align: center;
@@ -121,7 +124,7 @@ border: #9f8b6a solid 2px;
 }
 .mapa-ubicacion:hover{
 	transform: scale(2);
-	
+   
 	}
 
 .redes-sociales {
@@ -691,11 +694,10 @@ border: #9f8b6a solid 2px;
 }
 
 .div-ubicacion {
-		/* margin: 30px; */
-		display: flex;
+		
+        display: flex;
 		color: rgb(174, 151, 38);
 		font-size: 12px;
-		/* margin: 50px; */
 		margin-left: 10px;
 		margin-right: 10px;
 		background-color: #2e2e30;
