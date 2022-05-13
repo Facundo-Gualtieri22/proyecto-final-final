@@ -391,7 +391,6 @@
     margin: 18px;
     margin-left: 2px;
     margin-right: 2px;
-    /* margin-top: 50px; */
     padding: 15px;
     color: #ae9726;
     background-color: #2e2e30;
@@ -696,6 +695,3 @@
   .img-merchandising {
     height: 250px;
     width: 200px; } }
-
-* {
-  margin: 0%; }

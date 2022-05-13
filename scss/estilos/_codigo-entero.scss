@@ -1,3 +1,5 @@
+@import "./estilos/_modificaciones.scss";
+
 * {
 	padding: 0%;
 	margin: 0%;
@@ -23,7 +25,7 @@
 	padding: 10px;
 	padding-left: 5%;
 	color: rgb(174, 151, 38);
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	border: solid 3px #9f8b6a;
 	border-bottom: none;
 	font-size: 40px;
@@ -34,7 +36,7 @@
 .sub-titulo {
 	border: 3px solid #9f8b6a;
 	border-top: none;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	margin: 50px;
 	margin-top: 0%;
 	margin-left: 0%;
@@ -49,7 +51,7 @@
 
 .parrafo-clase{
 
-background-color: #2e2e30;
+background-color: $secondary_color;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 15px;
 color: #9f8b6a;
@@ -69,7 +71,7 @@ border: #9f8b6a solid 2px;
 	text-align: center;
 	display: flex;
 	justify-content: space-around;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	font-size: 22px;
 }
 
@@ -79,7 +81,7 @@ border: #9f8b6a solid 2px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	border: #9f8b6a solid 1px;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	box-sizing:unset;
 }
 .diseño-celda{
@@ -90,7 +92,7 @@ border: #9f8b6a solid 2px;
 	padding-left: 10px;
     padding-right: 10px;
 	text-align: center;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	
 }
 
@@ -102,7 +104,7 @@ border: #9f8b6a solid 2px;
 	font-size: x-large;
 	margin-left: 10px;
 	margin-right: 10px;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	height: auto;
 	width: auto;
 	border: #9f8b6a solid 3px;
@@ -128,7 +130,7 @@ border: #9f8b6a solid 2px;
 	}
 
 .redes-sociales {
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	border: #9f8b6a solid 3px;
 	border-bottom: none;
 	padding: 20px;
@@ -166,7 +168,7 @@ border: #9f8b6a solid 2px;
     padding: 15px;
     padding-left: 25px;
     color: rgb(174, 151, 38);
-    background-color: #2e2e30;
+    background-color: $secondary_color;
     border: solid 3px #9f8b6a;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
@@ -187,7 +189,7 @@ border: #9f8b6a solid 2px;
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	color: #9f8b6a;
 	font-size: large;
 	font-family: Arial, Helvetica, sans-serif;
@@ -195,7 +197,7 @@ border: #9f8b6a solid 2px;
 }
 .titulo-generales {
 	color: #9f8b6a;
-    background-color: #2e2e30;
+    background-color: $secondary_color;
     margin: 50px;
     margin-top: 100px;
     font-size: xx-large;
@@ -211,7 +213,7 @@ border: #9f8b6a solid 2px;
 
 .contenedores-peliculas {
 	display: flex;
-    background-color: #2e2e30;
+    background-color: $secondary_color;
     border: #9f8b6a solid 2px;
     width: 780px;
     height: 330px;
@@ -252,7 +254,7 @@ border: #9f8b6a solid 2px;
 /* cierre libros */
 .libros-contenedores {
 	display: flex;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	border: #9f8b6a solid 2px;
 	width: 700px;
 	height: 550px;
@@ -340,7 +342,7 @@ border: #9f8b6a solid 2px;
 			padding: 10px;
 			padding-left: 5%;
 			color: rgb(174, 151, 38);
-			background-color: #2e2e30;
+			background-color: $secondary_color;
 			border: solid 3px #9f8b6a;
 			border-bottom: none;
 			font-size: 20px;
@@ -350,7 +352,7 @@ border: #9f8b6a solid 2px;
 	.sub-titulo {
 			border: 3px solid #9f8b6a;
 			border-top: none;
-			background-color: #2e2e30;
+			background-color: $secondary_color;
 			margin: 50px;
 			margin-top: 0%;
 			margin-left: 0%;
@@ -371,7 +373,7 @@ border: #9f8b6a solid 2px;
 	}
 	.parrafo-clase{
 	
-			background-color: #2e2e30;
+			background-color: $secondary_color;
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 8px;
 			color: #9f8b6a;
@@ -390,7 +392,7 @@ border: #9f8b6a solid 2px;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 12px;
 		border: #9f8b6a solid 1px;
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		box-sizing:unset;
 	}
 	.diseño-celda{
@@ -399,7 +401,7 @@ border: #9f8b6a solid 2px;
 		color: rgb(174, 151, 38);
 		padding: 5px;
 		text-align: center;
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		box-sizing: unset;
 	}
 	
@@ -411,7 +413,7 @@ border: #9f8b6a solid 2px;
 			margin: 30px;
 			margin-left: 10px;
 			margin-right: 10px;
-			background-color: #2e2e30;
+			background-color: $secondary_color;
 			height: 180px;
 			width: auto;
 			border: #9f8b6a solid 3px;
@@ -433,7 +435,7 @@ border: #9f8b6a solid 2px;
 	
 	.titulo-generales {
 		color: #9f8b6a;
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		margin: 20px;
 		margin-top: 30px;
 		font-size: 15px;
@@ -443,7 +445,7 @@ border: #9f8b6a solid 2px;
 		border: #9f8b6a solid 3px;
 	}
 	.redes-sociales {
-			background-color: #2e2e30;
+			background-color: $secondary_color;
 			border: #9f8b6a solid 3px;
 			border-bottom: none;
 			padding: 20px;
@@ -473,10 +475,9 @@ border: #9f8b6a solid 2px;
 		margin: 18px;
 		margin-left: 2px;
 		margin-right: 2px;
-		/* margin-top: 50px; */
 		padding: 15px;
 		color: rgb(174, 151, 38);
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		border: solid 3px #9f8b6a;
 		font-size: 15px;
 		font-family: Arial, Helvetica, sans-serif;
@@ -514,7 +515,7 @@ border: #9f8b6a solid 2px;
 			display: flex;
 			justify-content: space-between;
 			text-align: center;
-			background-color: #2e2e30;
+			background-color: $secondary_color;
 			color: #9f8b6a;
 			font-size: large;
 			font-family: Arial, Helvetica, sans-serif;
@@ -539,7 +540,7 @@ border: #9f8b6a solid 2px;
 		
 		.contenedores-peliculas {
 				display: flex;
-				background-color: #2e2e30;
+				background-color: $secondary_color;
 				border: #9f8b6a solid 2px;
 				width: 400px;
     			height: 220px;
@@ -579,7 +580,7 @@ border: #9f8b6a solid 2px;
 		}
 		.libros-contenedores {
 			display: flex;
-			background-color: #2e2e30;
+			background-color: $secondary_color;
 			border: #9f8b6a solid 2px;
 			width: 320px;
 			height: 230px;
@@ -630,7 +631,7 @@ border: #9f8b6a solid 2px;
 		padding: 10px;
 		padding-left: 5%;
 		color: rgb(174, 151, 38);
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		border: solid 3px #9f8b6a;
 		border-bottom: none;
 		font-size: 40px;
@@ -640,7 +641,7 @@ border: #9f8b6a solid 2px;
 .sub-titulo {
 		border: 3px solid #9f8b6a;
 		border-top: none;
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		margin: 50px;
 		margin-top: 0%;
 		margin-left: 0%;
@@ -661,7 +662,7 @@ border: #9f8b6a solid 2px;
 }
 .parrafo-clase{
 
-	background-color: #2e2e30;
+	background-color: $secondary_color;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     color: #9f8b6a;
@@ -680,7 +681,7 @@ border: #9f8b6a solid 2px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 19px;
 	border: #9f8b6a solid 1px;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	box-sizing:unset;
 }
 .diseño-celda{
@@ -689,7 +690,7 @@ border: #9f8b6a solid 2px;
 	color: rgb(174, 151, 38);
 	padding: 5px;
 	text-align: center;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	box-sizing: unset;
 }
 
@@ -700,7 +701,7 @@ border: #9f8b6a solid 2px;
 		font-size: 12px;
 		margin-left: 10px;
 		margin-right: 10px;
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		height: 180px;
 		width: auto;
 		border: #9f8b6a solid 3px;
@@ -724,7 +725,7 @@ border: #9f8b6a solid 2px;
 
 .titulo-generales {
 	color: #9f8b6a;
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	margin: 20px;
 	margin-top: 30px;
 	font-size: 25px;
@@ -734,7 +735,7 @@ border: #9f8b6a solid 2px;
 	border: #9f8b6a solid 3px;
 }
 .redes-sociales {
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		border: #9f8b6a solid 3px;
 		border-bottom: none;
 		padding: 20px;
@@ -772,7 +773,7 @@ border: #9f8b6a solid 2px;
 	/* margin-top: 50px; */
 	padding: 15px;
 	color: rgb(174, 151, 38);
-	background-color: #2e2e30;
+	background-color: $secondary_color;
 	border: solid 3px #9f8b6a;
 	font-size: 22px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -810,7 +811,7 @@ border: #9f8b6a solid 2px;
 		display: flex;
 		justify-content: space-between;
 		text-align: center;
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		color: #9f8b6a;
 		font-size: large;
 		font-family: Arial, Helvetica, sans-serif;
@@ -835,7 +836,7 @@ border: #9f8b6a solid 2px;
 	
 	.contenedores-peliculas {
 			display: flex;
-			background-color: #2e2e30;
+			background-color: $secondary_color;
 			border: #9f8b6a solid 2px;
 			width: 400px;
 			height: 220px;
@@ -873,7 +874,7 @@ border: #9f8b6a solid 2px;
 		}
 	.libros-contenedores {
 		display: flex;
-		background-color: #2e2e30;
+		background-color: $secondary_color;
 		border: #9f8b6a solid 2px;
 		width: 320px;
 		height: 230px;
