@@ -1,0 +1,1044 @@
+@charset "UTF-8";
+main section.grid div.div-ubicacion {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center; }
+
+footer.redes-sociales {
+  display: flex; }
+
+section.grid-historia h1.t-1, main.main-peli h1.titulo-siguientes, main.main-libros h1.titulo-siguientes {
+  height: 60px;
+  width: 400px;
+  margin: 18px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 50px;
+  padding: 15px;
+  padding-left: 25px;
+  color: #ae9726;
+  background-color: #2e2e30;
+  border: solid 3px #9f8b6a;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; }
+
+main section.grid p.parrafo-clase, main.main-merchandising section p.parrafo-clase {
+  background-color: #2e2e30;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #9f8b6a;
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  margin: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  border: #9f8b6a solid 2px; }
+
+.cuerpo-prog {
+  height: auto;
+  width: auto;
+  background-image: url(../imagenes/portada.jpg);
+  background-size: cover;
+  background-size: 100rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #2e2e30; }
+
+/* index */
+header div .titulo {
+  margin: 0%;
+  margin-bottom: 0%;
+  padding: 10px;
+  padding-left: 5%;
+  color: #ae9726;
+  background-color: #2e2e30;
+  border: solid 3px #9f8b6a;
+  border-bottom: none;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+header div .sub-titulo {
+  border: 3px solid #9f8b6a;
+  border-top: none;
+  background-color: #2e2e30;
+  margin: 50px;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-bottom: 8px;
+  color: #ae9726;
+  font-family: Arial, Helvetica, sans-serif; }
+
+header ul.diseño-barra {
+  color: #ae9726;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: #9f8b6a solid 1px;
+  background-color: #2e2e30;
+  box-sizing: unset; }
+  header ul.diseño-barra .diseño-celda {
+    list-style: none;
+    text-decoration: none;
+    color: #ae9726;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: #2e2e30; }
+    header ul.diseño-barra .diseño-celda .diseño-celda {
+      list-style: none;
+      text-decoration: none;
+      color: #ae9726;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      background-color: #2e2e30; }
+
+main section.grid {
+  display: grid;
+  grid-template-rows: 180px 300px 300px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "index-titulo" "parrofo-clase" "div-ubicacion";
+  justify-items: center;
+  flex-wrap: wrap; }
+  main section.grid h1.index-titulo {
+    height: 60px;
+    width: 400px;
+    margin: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 50px;
+    padding: 15px;
+    padding-left: 25px;
+    color: #ae9726;
+    background-color: #2e2e30;
+    border: solid 3px #9f8b6a;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; }
+  main section.grid div.div-ubicacion {
+    margin: 10px;
+    color: #ae9726;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #2e2e30;
+    height: auto;
+    width: auto;
+    border: #9f8b6a solid 3px;
+    padding: 25px; }
+    main section.grid div.div-ubicacion p.parrafo-ubicacion {
+      margin: 100px; }
+    main section.grid div.div-ubicacion .mapa-ubicacion {
+      width: 200px;
+      height: 200px;
+      margin: auto;
+      transition: all 2s; }
+    main section.grid div.div-ubicacion .mapa-ubicacion:hover {
+      transform: scale(2); }
+
+footer.redes-sociales {
+  background-color: #2e2e30;
+  border: #9f8b6a solid 3px;
+  border-bottom: none;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%; }
+  footer.redes-sociales .instagram-img {
+    height: 50px;
+    width: 50px;
+    padding: 10px; }
+  footer.redes-sociales .wpp-img {
+    height: 50px;
+    width: 50px;
+    padding: 10px; }
+
+section.grid-historia {
+  display: grid;
+  grid-template-rows: 100px 170px 350px 170px 350px 170px 350px;
+  grid-template-areas: "t-1" "h-1" "p-1 img-cafeteria" "img-colegio p-2"  "h-2" "h-3"  "p3 img-personajes"; }
+  section.grid-historia h3.h-1 {
+    color: #9f8b6a;
+    background-color: #2e2e30;
+    margin: 50px;
+    margin-top: 100px;
+    font-size: xx-large;
+    padding: 10px;
+    width: auto;
+    height: 60px;
+    border: #9f8b6a solid 3px; }
+  section.grid-historia article.historia-clase {
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #2e2e30;
+    color: #9f8b6a;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif; }
+    section.grid-historia article.historia-clase p.parrafo-historia {
+      font-size: 10px; }
+    section.grid-historia article.historia-clase .img-cafeteria {
+      width: 400px;
+      height: 300px; }
+  section.grid-historia h3.h-2 {
+    color: #9f8b6a;
+    background-color: #2e2e30;
+    margin: 50px;
+    margin-top: 100px;
+    font-size: xx-large;
+    padding: 10px;
+    width: auto;
+    height: 60px;
+    border: #9f8b6a solid 3px; }
+  section.grid-historia article.historia-clase {
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #2e2e30;
+    color: #9f8b6a;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif; }
+    section.grid-historia article.historia-clase .img-colegio {
+      width: 400px;
+      height: 300px; }
+    section.grid-historia article.historia-clase p.parrafo-historia {
+      font-size: 20px; }
+  section.grid-historia h3.titulo-generales {
+    color: #9f8b6a;
+    background-color: #2e2e30;
+    margin: 50px;
+    margin-top: 100px;
+    font-size: xx-large;
+    padding: 10px;
+    width: auto;
+    height: 60px;
+    border: #9f8b6a solid 3px; }
+  section.grid-historia article.historia-clase {
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #2e2e30;
+    color: #9f8b6a;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif; }
+    section.grid-historia article.historia-clase p.parrafo-historia {
+      font-size: 20px; }
+    section.grid-historia article.historia-clase .img-personajes {
+      width: 400px;
+      height: 300px; }
+
+main.main-peli div.div-peli section.section-peli h3.titulo-generales {
+  color: #9f8b6a;
+  background-color: #2e2e30;
+  margin: 50px;
+  margin-top: 100px;
+  font-size: xx-large;
+  padding: 10px;
+  width: auto;
+  height: 60px;
+  border: #9f8b6a solid 3px; }
+
+main.main-peli div.div-peli section.section-peli div.contenedores-peliculas {
+  display: flex;
+  background-color: #2e2e30;
+  border: #9f8b6a solid 2px;
+  width: 780px;
+  height: 330px;
+  color: #9f8b6a;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 25px;
+  margin-top: 0px;
+  margin-left: 25%;
+  padding: 10px;
+  text-align: center; }
+  main.main-peli div.div-peli section.section-peli div.contenedores-peliculas .peliculas-img {
+    height: 300px;
+    width: 200px; }
+  main.main-peli div.div-peli section.section-peli div.contenedores-peliculas p.parrafo-peli {
+    padding: 10px; }
+  main.main-peli div.div-peli section.section-peli div.contenedores-peliculas .videos-trailer {
+    height: 250px;
+    width: 280px;
+    transition: all 2s ease-in; }
+  main.main-peli div.div-peli section.section-peli div.contenedores-peliculas .videos-trailer:hover {
+    transform: scale(2) translateX(-80px); }
+
+main.main-libros section.libros-seccion h3.titulo-generales {
+  color: #9f8b6a;
+  background-color: #2e2e30;
+  margin: 50px;
+  margin-top: 100px;
+  font-size: xx-large;
+  padding: 10px;
+  width: auto;
+  height: 60px;
+  border: #9f8b6a solid 3px; }
+
+main.main-libros section.libros-seccion div.libros-contenedores {
+  display: flex;
+  background-color: #2e2e30;
+  border: #9f8b6a solid 2px;
+  width: 700px;
+  height: 550px;
+  color: #9f8b6a;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  padding: 25px; }
+  main.main-libros section.libros-seccion div.libros-contenedores p {
+    font-size: 20px;
+    text-align: center; }
+  main.main-libros section.libros-seccion div.libros-contenedores .libros-img {
+    height: 450px;
+    width: 350px; }
+
+main.main-merchandising .img-merchandising {
+  height: 600px;
+  width: 350px;
+  margin-left: 40%;
+  margin-right: 10%;
+  margin-top: 10%; }
+
+main.main-merchandising .img-carrusel {
+  border: #9f8b6a 4px solid; }
+
+@media (min-width: 452px) and (max-width: 820px) {
+  .cuerpo-prog {
+    height: auto;
+    width: auto;
+    background-image: url(../imagenes/portada.jpg);
+    background-size: cover;
+    background-size: 100rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #2e2e30; }
+  /* index */
+  header {
+    height: 200px; }
+    header div .titulo {
+      margin: 0%;
+      margin-bottom: 0%;
+      padding: 10px;
+      padding-left: 5%;
+      color: #ae9726;
+      background-color: #2e2e30;
+      border: solid 3px #9f8b6a;
+      border-bottom: none;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif; }
+    header div .sub-titulo {
+      border: 3px solid #9f8b6a;
+      border-top: none;
+      background-color: #2e2e30;
+      margin: 50px;
+      margin-top: 0%;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-bottom: 10px;
+      padding-left: 15px;
+      padding-bottom: 8px;
+      color: #ae9726;
+      font-family: Arial, Helvetica, sans-serif; }
+    header ul.diseño-barra {
+      color: #ae9726;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 19px;
+      border: #9f8b6a solid 1px;
+      background-color: #2e2e30;
+      box-sizing: unset; }
+      header ul.diseño-barra .diseño-celda {
+        list-style: none;
+        text-decoration: none;
+        color: #ae9726;
+        padding: 5px;
+        text-align: center;
+        background-color: #2e2e30;
+        box-sizing: unset; }
+        header ul.diseño-barra .diseño-celda .diseño-celda {
+          list-style: none;
+          text-decoration: none;
+          color: #ae9726;
+          padding: 5px;
+          text-align: center;
+          background-color: #2e2e30;
+          box-sizing: unset; }
+  main {
+    min-height: calc(100vh -500px -100px); }
+    main section.grid {
+      display: grid;
+      grid-template-rows: 90px 280px 250px;
+      grid-template-columns: 1fr;
+      grid-template-areas: "index-titulo" "parrofo-clase" "div-ubicacion";
+      justify-items: center;
+      flex-wrap: wrap; }
+      main section.grid h1.index-titulo {
+        height: auto;
+        width: 150px;
+        margin: 18px;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding: 15px;
+        color: #ae9726;
+        background-color: #2e2e30;
+        border: solid 3px #9f8b6a;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center; }
+      main section.grid p.parrafo-clase {
+        background-color: #2e2e30;
+        font-family: Arial;
+        font-size: 11px;
+        color: #9f8b6a;
+        width: 195px;
+        height: 150px;
+        padding: 5px;
+        margin: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        border: #9f8b6a solid 2px; }
+      main section.grid div.div-ubicacion {
+        display: flex;
+        flex-wrap: wrap;
+        color: #ae9726;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #2e2e30;
+        height: 180px;
+        width: auto;
+        border: #9f8b6a solid 3px;
+        padding: 10px; }
+        main section.grid div.div-ubicacion p.parrafo-ubicacion {
+          margin: 50px;
+          font-size: 15px; }
+        main section.grid div.div-ubicacion .mapa-ubicacion {
+          width: 100px;
+          height: 100px;
+          margin: auto; }
+  footer.redes-sociales .redes-sociales {
+    height: 2S00px;
+    background-color: #2e2e30;
+    border: #9f8b6a solid 3px;
+    border-bottom: none;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: space-between; }
+    footer.redes-sociales .redes-sociales .redes-tablet {
+      position: absolute;
+      width: 100vw;
+      top: 82vh; }
+    footer.redes-sociales .redes-sociales .instagram-img {
+      height: 50px;
+      width: 50px; }
+    footer.redes-sociales .redes-sociales .wpp-img {
+      height: 50px;
+      width: 50px; }
+  section.grid-historia {
+    display: grid;
+    grid-template-rows: 90px 185px 215px 185px 215px 185px 215px;
+    grid-template-areas: "t-1" "h-1" "p-1 img-cafeteria" "img-colegio p-2"  "h-2" "h-3"  "p3 img-personajes"; }
+    section.grid-historia h1.t-1 {
+      height: auto;
+      width: 150px;
+      margin: 18px;
+      margin-left: 2px;
+      margin-right: 2px;
+      padding: 15px;
+      color: #ae9726;
+      background-color: #2e2e30;
+      border: solid 3px #9f8b6a;
+      font-size: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+    section.grid-historia h3.h-1 {
+      color: #9f8b6a;
+      background-color: #2e2e30;
+      margin: 20px;
+      margin-top: 30px;
+      font-size: 25px;
+      padding: 10px;
+      width: auto;
+      height: auto;
+      border: #9f8b6a solid 3px; }
+    section.grid-historia article.historia-clase {
+      padding: 20px;
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      background-color: #2e2e30;
+      color: #9f8b6a;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif; }
+      section.grid-historia article.historia-clase p.parrafo-historia {
+        font-size: 5px; }
+      section.grid-historia article.historia-clase .img-cafeteria {
+        width: 150px;
+        height: 150px; }
+    section.grid-historia h3.h-2 {
+      color: #9f8b6a;
+      background-color: #2e2e30;
+      margin: 20px;
+      margin-top: 30px;
+      font-size: 25px;
+      padding: 10px;
+      width: auto;
+      height: auto;
+      border: #9f8b6a solid 3px; }
+    section.grid-historia article.historia-clase {
+      padding: 20px;
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      background-color: #2e2e30;
+      color: #9f8b6a;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif; }
+      section.grid-historia article.historia-clase .img-colegio {
+        width: 150px;
+        height: 150px; }
+      section.grid-historia article.historia-clase p.parrafo-historia {
+        font-size: 18px; }
+    section.grid-historia h3.titulo-generales {
+      color: #9f8b6a;
+      background-color: #2e2e30;
+      margin: 20px;
+      margin-top: 30px;
+      font-size: 25px;
+      padding: 10px;
+      width: auto;
+      height: auto;
+      border: #9f8b6a solid 3px; }
+    section.grid-historia article.historia-clase {
+      padding: 20px;
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      background-color: #2e2e30;
+      color: #9f8b6a;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif; }
+      section.grid-historia article.historia-clase p.parrafo-historia {
+        font-size: 18px; }
+      section.grid-historia article.historia-clase .img-personajes {
+        width: 150px;
+        height: 150px; }
+  main.main-peli h1.titulo-siguientes {
+    height: auto;
+    width: 150px;
+    margin: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 15px;
+    color: #ae9726;
+    background-color: #2e2e30;
+    border: solid 3px #9f8b6a;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; }
+  main.main-peli div.div-peli section.section-peli h3.titulo-generales {
+    color: #9f8b6a;
+    background-color: #2e2e30;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    border: #9f8b6a solid 3px; }
+  main.main-peli div.div-peli section.section-peli div.contenedores-peliculas {
+    display: flex;
+    background-color: #2e2e30;
+    border: #9f8b6a solid 2px;
+    width: 400px;
+    height: 220px;
+    color: #9f8b6a;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto; }
+    main.main-peli div.div-peli section.section-peli div.contenedores-peliculas .peliculas-img {
+      height: 200px;
+      width: 145px;
+      margin-right: 2px; }
+    main.main-peli div.div-peli section.section-peli div.contenedores-peliculas p.parrafo-peli {
+      padding: 10px; }
+    main.main-peli div.div-peli section.section-peli div.contenedores-peliculas .videos-trailer {
+      height: 150px;
+      width: 100px;
+      transition: all 2s ease-in; }
+    main.main-peli div.div-peli section.section-peli div.contenedores-peliculas .videos-trailer:hover {
+      transform: scale(2) translateX(-60px); }
+  main.main-libros h1.titulo-siguientes {
+    height: auto;
+    width: 150px;
+    margin: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 15px;
+    color: #ae9726;
+    background-color: #2e2e30;
+    border: solid 3px #9f8b6a;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; }
+  main.main-libros section.libros-seccion h3.titulo-generales {
+    color: #9f8b6a;
+    background-color: #2e2e30;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    border: #9f8b6a solid 3px; }
+  main.main-libros section.libros-seccion div.libros-contenedores {
+    display: flex;
+    background-color: #2e2e30;
+    border: #9f8b6a solid 2px;
+    width: 320px;
+    height: 230px;
+    color: #9f8b6a;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 8px; }
+    main.main-libros section.libros-seccion div.libros-contenedores p {
+      font-size: 18px;
+      text-align: center; }
+    main.main-libros section.libros-seccion div.libros-contenedores .libros-img {
+      height: 200px;
+      width: 150px; }
+  main.main-merchandising .img-merchandising {
+    height: 250px;
+    width: 200px; }
+  main.main-merchandising .img-carrusel {
+    border: #9f8b6a 4px solid; }
+  main.main-merchandising section p.parrafo-clase {
+    background-color: #2e2e30;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #9f8b6a;
+    width: 195px;
+    height: 150px;
+    padding: 5px;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border: #9f8b6a solid 2px; } }
+
+@media (max-width: 451px) {
+  .cuerpo-prog {
+    height: auto;
+    width: auto;
+    background-image: url(../imagenes/portada.jpg);
+    background-size: cover;
+    background-size: 100rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #2e2e30; }
+  /* index */
+  header div .titulo {
+    margin: 0%;
+    margin-bottom: 0%;
+    padding: 10px;
+    padding-left: 5%;
+    color: #ae9726;
+    background-color: #2e2e30;
+    border: solid 3px #9f8b6a;
+    border-bottom: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; }
+  header div .sub-titulo {
+    border: 3px solid #9f8b6a;
+    border-top: none;
+    background-color: #2e2e30;
+    margin: 50px;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    color: #ae9726;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px; }
+  header ul.diseño-barra {
+    color: #ae9726;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: #9f8b6a solid 1px;
+    background-color: #2e2e30;
+    box-sizing: unset;
+    margin: auto; }
+    header ul.diseño-barra .diseño-celda {
+      list-style: none;
+      text-decoration: none;
+      color: #ae9726;
+      padding: 5px;
+      text-align: center;
+      background-color: #2e2e30;
+      box-sizing: unset; }
+      header ul.diseño-barra .diseño-celda .diseño-celda {
+        list-style: none;
+        text-decoration: none;
+        color: #ae9726;
+        padding: 5px;
+        text-align: center;
+        background-color: #2e2e30;
+        box-sizing: unset; }
+  main section.grid {
+    display: grid;
+    grid-template-rows: 85px 150px 200px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "index-titulo" "parrofo-clase" "div-ubicacion";
+    justify-items: center;
+    flex-wrap: wrap; }
+    main section.grid h1.index-titulo {
+      height: 41px;
+      width: 150px;
+      margin: 18px;
+      margin-left: 2px;
+      margin-right: 2px;
+      padding: 15px;
+      color: #ae9726;
+      background-color: #2e2e30;
+      border: solid 3px #9f8b6a;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+    main section.grid p.parrafo-clase {
+      background-color: #2e2e30;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 8px;
+      color: #9f8b6a;
+      width: 195px;
+      height: 90px;
+      padding: 5px;
+      margin: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: center;
+      border: #9f8b6a solid 2px; }
+    main section.grid div.div-ubicacion {
+      margin: 30px;
+      display: flex;
+      color: #ae9726;
+      font-size: 10px;
+      margin: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-color: #2e2e30;
+      height: 180px;
+      width: auto;
+      border: #9f8b6a solid 3px;
+      padding: 10px;
+      flex-wrap: wrap; }
+      main section.grid div.div-ubicacion p.parrafo-ubicacion {
+        margin: 10px; }
+      main section.grid div.div-ubicacion .mapa-ubicacion {
+        width: 100px;
+        height: 100px;
+        margin: auto; }
+  footer.redes-sociales .redes-sociales {
+    background-color: #2e2e30;
+    border: #9f8b6a solid 3px;
+    border-bottom: none;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: space-between; }
+    footer.redes-sociales .redes-sociales .redes-tablet {
+      position: absolute;
+      width: 100vw;
+      top: 82vh; }
+    footer.redes-sociales .redes-sociales .instagram-img {
+      height: 50px;
+      width: 50px;
+      padding: 10px; }
+    footer.redes-sociales .redes-sociales .wpp-img {
+      height: 50px;
+      width: 50px;
+      padding: 10px; }
+  section.grid-historia {
+    display: grid;
+    grid-template-rows: 90px 115px 205px 115px 205px 115px 205px;
+    grid-template-areas: "t-1" "h-1" "p-1 img-cafeteria" "img-colegio p-2"  "h-2" "h-3"  "p3 img-personajes"; }
+    section.grid-historia h1.t-1 {
+      height: 41px;
+      width: 150px;
+      margin: 18px;
+      margin-left: 2px;
+      margin-right: 2px;
+      padding: 15px;
+      color: #ae9726;
+      background-color: #2e2e30;
+      border: solid 3px #9f8b6a;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center; }
+    section.grid-historia h3.h-1 {
+      color: #9f8b6a;
+      background-color: #2e2e30;
+      margin: 20px;
+      margin-top: 30px;
+      font-size: 15px;
+      padding: 10px;
+      width: auto;
+      height: 40px;
+      border: #9f8b6a solid 3px; }
+    section.grid-historia article.historia-clase {
+      padding: 20px;
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      background-color: #2e2e30;
+      color: #9f8b6a;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif; }
+      section.grid-historia article.historia-clase p.parrafo-historia {
+        font-size: 10px; }
+      section.grid-historia article.historia-clase .img-cafeteria {
+        width: 100px;
+        height: 100px; }
+    section.grid-historia h3.h-2 {
+      color: #9f8b6a;
+      background-color: #2e2e30;
+      margin: 20px;
+      margin-top: 30px;
+      font-size: 15px;
+      padding: 10px;
+      width: auto;
+      height: 40px;
+      border: #9f8b6a solid 3px; }
+    section.grid-historia article.historia-clase {
+      padding: 20px;
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      background-color: #2e2e30;
+      color: #9f8b6a;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif; }
+      section.grid-historia article.historia-clase .img-colegio {
+        width: 100px;
+        height: 100px; }
+      section.grid-historia article.historia-clase p.parrafo-historia {
+        font-size: 10px; }
+    section.grid-historia h3.titulo-generales {
+      color: #9f8b6a;
+      background-color: #2e2e30;
+      margin: 20px;
+      margin-top: 30px;
+      font-size: 15px;
+      padding: 10px;
+      width: auto;
+      height: 40px;
+      border: #9f8b6a solid 3px; }
+    section.grid-historia article.historia-clase {
+      padding: 20px;
+      margin: 5px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      background-color: #2e2e30;
+      color: #9f8b6a;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif; }
+      section.grid-historia article.historia-clase p.parrafo-historia {
+        font-size: 10px; }
+      section.grid-historia article.historia-clase .img-personajes {
+        width: 100px;
+        height: 100px; }
+  main.main-peli h1.titulo-siguientes {
+    height: 41px;
+    width: 150px;
+    margin: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 15px;
+    color: #ae9726;
+    background-color: #2e2e30;
+    border: solid 3px #9f8b6a;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; }
+  main.main-peli div.div-peli section.section-peli h3.titulo-generales {
+    color: #9f8b6a;
+    background-color: #2e2e30;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 10px;
+    width: auto;
+    height: 40px;
+    border: #9f8b6a solid 3px; }
+  main.main-peli div.div-peli section.section-peli div.contenedores-peliculas {
+    display: flex;
+    background-color: #2e2e30;
+    border: #9f8b6a solid 2px;
+    width: 400px;
+    height: 220px;
+    color: #9f8b6a;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100vw; }
+    main.main-peli div.div-peli section.section-peli div.contenedores-peliculas .peliculas-img {
+      height: 200px;
+      width: 145px;
+      margin-right: 2px; }
+    main.main-peli div.div-peli section.section-peli div.contenedores-peliculas p.parrafo-peli {
+      padding: 10px; }
+    main.main-peli div.div-peli section.section-peli div.contenedores-peliculas .videos-trailer {
+      height: 150px;
+      width: 100px;
+      transition: all 2s ease-in; }
+    main.main-peli div.div-peli section.section-peli div.contenedores-peliculas .videos-trailer:hover {
+      transform: scale(2) translateX(-60px); }
+  main.main-libros h1.titulo-siguientes {
+    height: 41px;
+    width: 150px;
+    margin: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 15px;
+    color: #ae9726;
+    background-color: #2e2e30;
+    border: solid 3px #9f8b6a;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; }
+  main.main-libros section.libros-seccion h3.titulo-generales {
+    color: #9f8b6a;
+    background-color: #2e2e30;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 10px;
+    width: auto;
+    height: 40px;
+    border: #9f8b6a solid 3px; }
+  main.main-libros section.libros-seccion div.libros-contenedores {
+    display: flex;
+    background-color: #2e2e30;
+    border: #9f8b6a solid 2px;
+    width: 320px;
+    height: 230px;
+    color: #9f8b6a;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 8px; }
+    main.main-libros section.libros-seccion div.libros-contenedores p {
+      font-size: 10px;
+      text-align: center; }
+    main.main-libros section.libros-seccion div.libros-contenedores .libros-img {
+      height: 200px;
+      width: 150px; }
+  main.main-merchandising .img-merchandising {
+    height: 250px;
+    width: 200px;
+    margin-left: 25%;
+    margin-right: 10%; }
+  main.main-merchandising .img-carrusel {
+    border: #9f8b6a 4px solid; }
+  main.main-merchandising section p.parrafo-clase {
+    background-color: #2e2e30;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: #9f8b6a;
+    width: 195px;
+    height: 90px;
+    padding: 5px;
+    margin: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border: #9f8b6a solid 2px; } }
+
+main section.grid div.div-ubicacion {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center; }
+
+footer.redes-sociales {
+  display: flex; }
+
+section.grid-historia h1.t-1, main.main-peli h1.titulo-siguientes, main.main-libros h1.titulo-siguientes {
+  height: 60px;
+  width: 400px;
+  margin: 18px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 50px;
+  padding: 15px;
+  padding-left: 25px;
+  color: #ae9726;
+  background-color: #2e2e30;
+  border: solid 3px #9f8b6a;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; }
+
+main section.grid p.parrafo-clase, main.main-merchandising section p.parrafo-clase {
+  background-color: #2e2e30;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #9f8b6a;
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  margin: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  border: #9f8b6a solid 2px; }

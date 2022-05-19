@@ -1,0 +1,421 @@
+@import "./estilos/extend";
+
+
+.cuerpo-prog {
+	height: auto;
+	width: auto;
+	background-image: url(../imagenes/portada.jpg);
+	background-size: cover;
+	background-size: 100rem;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+    background-color: #2e2e30;
+
+
+}
+/* index */
+header{
+    div{
+        .titulo {
+            margin: 0%;
+            margin-bottom: 0%;
+            padding: 10px;
+            padding-left: 5%;
+            color: rgb(174, 151, 38);
+            background-color: #2e2e30;
+            border: solid 3px #9f8b6a;
+            border-bottom: none;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        
+        .sub-titulo {
+            border: 3px solid #9f8b6a;
+            border-top: none;
+            background-color: #2e2e30;
+            margin: 50px;
+            margin-top: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            padding-bottom:8px;
+            color: rgb(174, 151, 38);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    ul.diseño-barra{
+        color: rgb(174, 151, 38);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        border: #9f8b6a solid 1px;
+        background-color: #2e2e30;
+        box-sizing:unset;
+        .diseño-celda{
+                list-style: none;
+                text-decoration: none;
+                color: rgb(174, 151, 38);
+                padding: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                text-align: center;
+                background-color: #2e2e30;
+
+            .diseño-celda{
+                list-style: none;
+                text-decoration: none;
+                color: rgb(174, 151, 38);
+                padding: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                text-align: center;
+                background-color: #2e2e30;
+                
+            }
+        }
+    }
+}
+main{
+section.grid{
+	display: grid;
+	grid-template-rows: 180px 300px 300px;
+	grid-template-columns: 1fr;
+	grid-template-areas: 
+	"index-titulo"
+	"parrofo-clase"
+	"div-ubicacion";
+	justify-items: center;
+	flex-wrap: wrap;
+	
+
+    h1.index-titulo {
+        height: 60px;
+        width: 400px;
+        margin: 18px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 50px;
+        padding: 15px;
+        padding-left: 25px;
+        color: rgb(174, 151, 38);
+        background-color: #2e2e30;
+        border: solid 3px #9f8b6a;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+	}
+        p.parrafo-clase{
+
+            @extend %parrafo-clase;
+                        }
+            div.div-ubicacion{
+                margin: 10px;
+                @extend %flex-ubicacion;
+                color: rgb(174, 151, 38);
+                font-size: x-large;
+                margin-left: 10px;
+                margin-right: 10px;
+                background-color: #2e2e30;
+                height: auto;
+                width: auto;
+                border: #9f8b6a solid 3px;
+                padding: 25px;
+                
+                p.parrafo-ubicacion {
+                    margin: 100px;
+                }
+                .mapa-ubicacion {
+                    width: 200px;
+                    height: 200px;
+                    margin: auto;
+                    transition: all 2s;
+                }
+                .mapa-ubicacion:hover{
+                    transform: scale(2);
+                    
+                    }
+                
+            }       
+    }
+}
+
+footer.redes-sociales {
+	background-color: #2e2e30;
+	border: #9f8b6a solid 3px;
+	border-bottom: none;
+	padding: 20px;
+	margin-top: 100px;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+	@extend %flex;
+    .instagram-img {
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        
+    }
+    .wpp-img {
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        
+    }
+	
+}
+
+
+section.grid-historia{
+        display: grid;
+        grid-template-rows: 100px 170px 350px 170px 350px 170px 350px;
+        grid-template-areas: 
+        "t-1" "h-1"
+        "p-1 img-cafeteria"
+        "img-colegio p-2" 
+        "h-2"
+        "h-3" 
+        "p3 img-personajes";
+
+   h1.t-1 {
+    @extend %titulo-siguientes;
+    }
+    h3.h-1{
+        color: #9f8b6a;
+        background-color: #2e2e30;
+        margin: 50px;
+        margin-top: 100px;
+        font-size: xx-large;
+        padding: 10px;
+        width: auto;
+        height: 60px;
+        border: #9f8b6a solid 3px
+    }
+    article.historia-clase {
+        padding: 20px;
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #2e2e30;
+        color: #9f8b6a;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+            p.parrafo-historia{
+                font-size: 10px;
+            }
+            .img-cafeteria{
+                width: 400px;
+                height: 300px;
+            }
+
+    }
+    h3.h-2{
+        color: #9f8b6a;
+        background-color: #2e2e30;
+        margin: 50px;
+        margin-top: 100px;
+        font-size: xx-large;
+        padding: 10px;
+        width: auto;
+        height: 60px;
+        border: #9f8b6a solid 3px
+    }
+    article.historia-clase {
+        padding: 20px;
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #2e2e30;
+        color: #9f8b6a;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+           .img-colegio{
+                width: 400px;
+                height: 300px;
+            } 
+            p.parrafo-historia{
+                font-size: 20px;
+            }
+        }
+    h3.titulo-generales{
+        color: #9f8b6a;
+        background-color: #2e2e30;
+        margin: 50px;
+        margin-top: 100px;
+        font-size: xx-large;
+        padding: 10px;
+        width: auto;
+        height: 60px;
+        border: #9f8b6a solid 3px
+    }
+    article.historia-clase {
+        padding: 20px;
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #2e2e30;
+        color: #9f8b6a;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+            p.parrafo-historia{
+                font-size: 20px;
+            }
+            .img-personajes{
+                width: 400px;
+                height: 300px;
+            } 
+           
+
+
+    }
+}
+
+
+main.main-peli{
+    h1.titulo-siguientes {
+        @extend %titulo-siguientes;
+    }
+
+    div.div-peli{
+        section.section-peli{
+            h3.titulo-generales{
+                    color: #9f8b6a;
+                    background-color: #2e2e30;
+                    margin: 50px;
+                    margin-top: 100px;
+                    font-size: xx-large;
+                    padding: 10px;
+                    width: auto;
+                    height: 60px;
+                    border: #9f8b6a solid 3px
+                }
+                div.contenedores-peliculas {
+                    display: flex;
+                    background-color: #2e2e30;
+                    border: #9f8b6a solid 2px;
+                    width: 780px;
+                    height: 330px;
+                    color: #9f8b6a;
+                    font-size: large;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin: 25px;
+                    margin-top: 0px;
+                    margin-left: 25%;
+                    padding: 10px;
+                    text-align: center;
+                        .peliculas-img{
+                        height: 300px;
+                        width: 200px;
+                        }
+                        p.parrafo-peli {
+                            padding: 10px;
+                        }
+                        .videos-trailer{
+                            height: 250px;
+                            width: 280px;
+                            transition: all 2s ease-in;
+                        }	
+                        
+                        .videos-trailer:hover{
+                            
+                            transform: scale(2) translateX(-80px);
+                            
+                        
+                        } 
+                }
+            }
+        }
+    }
+
+
+    main.main-libros{
+        h1.titulo-siguientes {
+            @extend %titulo-siguientes;
+        }
+        section.libros-seccion{
+            h3.titulo-generales {
+                color: #9f8b6a;
+                background-color: #2e2e30;
+                margin: 50px;
+                margin-top: 100px;
+                font-size: xx-large;
+                padding: 10px;
+                width: auto;
+                height: 60px;
+                border: #9f8b6a solid 3px
+            }
+            div.libros-contenedores {
+                display: flex;
+                background-color: #2e2e30;
+                border: #9f8b6a solid 2px;
+                width: 700px;
+                height: 550px;
+                color: #9f8b6a;
+                font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin: 50px;
+                margin-left: auto;
+                margin-right: auto ;
+                margin-top: 0px;
+                padding: 25px;
+            
+                p{
+                    font-size: 20px;
+                    text-align: center;
+                    
+                
+                }
+                .libros-img{
+                    height: 450px;
+                    width: 350px;
+                }
+            
+            }
+
+        }
+
+
+
+    }
+
+
+    main.main-merchandising{
+        .img-merchandising{
+            height: 600px;
+            width: 350px;
+            margin-left: 40%;
+            margin-right: 10%;
+            margin-top: 10%;
+            }
+    
+        .img-carrusel{
+            border: #9f8b6a 4px solid;
+    }
+
+    section{
+            p.parrafo-clase{
+
+                @extend %parrafo-clase;
+                             }
+            }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
