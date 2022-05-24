@@ -1,5 +1,3 @@
-@import "./estilos/extend";
-
 
 .cuerpo-prog {
 	height: auto;
@@ -107,12 +105,24 @@ section.grid{
         text-align: left;
 	}
         p.parrafo-clase{
-
-            @extend %parrafo-clase;
-                        }
+            background-color: #2e2e30;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: #9f8b6a;
+            width: 500px ;
+            height: 200px ;
+            padding: 10px;
+            margin: 1px;
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: center;
+            border: #9f8b6a solid 2px;
+        }
             div.div-ubicacion{
                 margin: 10px;
-                @extend %flex-ubicacion;
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
                 color: rgb(174, 151, 38);
                 font-size: x-large;
                 margin-left: 10px;
@@ -150,7 +160,7 @@ footer.redes-sociales {
 	margin-left: 0%;
 	margin-right: 0%;
 	margin-bottom: 0%;
-	@extend %flex;
+	display:flex;
     .instagram-img {
         height: 50px;
         width: 50px;
@@ -178,10 +188,24 @@ section.grid-historia{
         "h-3" 
         "p3 img-personajes";
 
-   h1.t-1 {
-    @extend %titulo-siguientes;
-    }
-    h3.h-1{
+   h1.titulo-siguientes{
+    height: 60px;
+    width: 400px;
+    margin: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 50px;
+    padding: 15px;
+    padding-left: 25px;
+    color: rgb(174, 151, 38);
+    background-color: #2e2e30;
+    border: solid 3px #9f8b6a;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+    h3.titulo-generales{
         color: #9f8b6a;
         background-color: #2e2e30;
         margin: 50px;
@@ -211,7 +235,7 @@ section.grid-historia{
             }
 
     }
-    h3.h-2{
+    h3.titulo-generales{
         color: #9f8b6a;
         background-color: #2e2e30;
         margin: 50px;
@@ -276,9 +300,23 @@ section.grid-historia{
 
 
 main.main-peli{
-    h1.titulo-siguientes {
-        @extend %titulo-siguientes;
+    h1.titulo-siguientes{
+        height: 60px;
+        width: 400px;
+        margin: 18px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 50px;
+        padding: 15px;
+        padding-left: 25px;
+        color: rgb(174, 151, 38);
+        background-color: #2e2e30;
+        border: solid 3px #9f8b6a;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
     }
+    
 
     div.div-peli{
         section.section-peli{
@@ -333,9 +371,23 @@ main.main-peli{
 
 
     main.main-libros{
-        h1.titulo-siguientes {
-            @extend %titulo-siguientes;
+        h1.titulo-siguientes{
+            height: 60px;
+            width: 400px;
+            margin: 18px;
+            margin-left: 2px;
+            margin-right: 2px;
+            margin-top: 50px;
+            padding: 15px;
+            padding-left: 25px;
+            color: rgb(174, 151, 38);
+            background-color: #2e2e30;
+            border: solid 3px #9f8b6a;
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
         }
+        
         section.libros-seccion{
             h3.titulo-generales {
                 color: #9f8b6a;
@@ -399,10 +451,20 @@ main.main-peli{
 
     section{
             p.parrafo-clase{
-
-                @extend %parrafo-clase;
-                             }
+                background-color: #2e2e30;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                color: #9f8b6a;
+                width: 500px ;
+                height: 200px ;
+                padding: 10px;
+                margin: 1px;
+                margin-left: 100px;
+                margin-right: 100px;
+                text-align: center;
+                border: #9f8b6a solid 2px;
             }
+        }
     }
 
 

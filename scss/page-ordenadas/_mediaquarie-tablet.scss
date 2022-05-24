@@ -110,18 +110,18 @@
         }
             p.parrafo-clase{
 
-                background-color: map-get($parrafo-clase,background-color);
-                font-family:map-get($parrafo-clase,font-family);
-                font-size: map-get($parrafo-clase,font-size);
-                color:map-get($parrafo-clase,color);
-                width: map-get($parrafo-clase,width);
-                height: map-get($parrafo-clase,height);
-                padding: map-get($parrafo-clase,padding);
-                margin: map-get($parrafo-clase,margin);
-                margin-left: map-get($parrafo-clase,margin-left);
-                margin-right: map-get($parrafo-clase,margin-right);
-                text-align: map-get($parrafo-clase,text-align);
-                border: map-get($parrafo-clase,border);
+                background-color: #2e2e30;
+                font-family: Arial;
+                font-size: 11px;
+                color: #9f8b6a;
+                width: 195px;
+                height: 150px;
+                padding: 5px;
+                margin: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                text-align: center;
+                border: #9f8b6a solid 2px;
             }
                 div.div-ubicacion{
                     display: flex;
@@ -145,9 +145,9 @@
                         font-size: 15px;
                 }
                     .mapa-ubicacion {
-                        width: map-get($mapa-ubicacion ,width);
-                        height:  map-get($mapa-ubicacion ,height);
-                        margin: map-get($mapa-ubicacion ,margin);
+                        width: 100px;
+                        height: 100px;
+                        margin: auto;
                         
                 }
                     
@@ -157,7 +157,7 @@
     }
     
     footer.redes-sociales .redes-sociales {
-        height: 2S00px;
+        height: 200px;
 		background-color: #2e2e30;
 		border: #9f8b6a solid 3px;
 		border-bottom: none;
@@ -176,15 +176,15 @@
 	}
 
 .instagram-img {
-		height:map-get($redes-img , height);
-		width: map-get($redes-img , width);
-		padding:map-get($redes-img , paddings);
+    height: 50px;
+    width: 50px;
+    padding: 10px;
 	
 }
 .wpp-img {
-    height:map-get($redes-img , height);
-    width: map-get($redes-img , width);
-    padding:map-get($redes-img , paddings);
+    height: 50px;
+    width: 50px;
+    padding: 10px;
 	
 }
 }
@@ -193,7 +193,7 @@
   
     section.grid-historia{
         display: grid;
-        grid-template-rows: 90px 185px 215px 185px 215px 185px 215px;
+        grid-template-rows: 90px 125px 255px 125px 375px 125px 255px;
         grid-template-areas: 
         "t-1" "h-1"
         "p-1 img-cafeteria"
@@ -202,7 +202,7 @@
         "h-3" 
         "p3 img-personajes";
     
-       h1.t-1 {
+       h1.titulo-siguientes {
         height: auto;
         width: 150px;
         margin: 18px;
@@ -216,7 +216,8 @@
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         }
-        h3.h-1{
+        
+        h3.titulo-generales{
             color: #9f8b6a;
             background-color: #2e2e30;
             margin: 20px;
@@ -232,7 +233,7 @@
             margin: 5px;
             display: flex;
             justify-content: space-between;
-            text-align: center;
+            text-align: left;
             background-color: #2e2e30;
             color: #9f8b6a;
             font-size: large;
@@ -241,40 +242,11 @@
                     font-size:5px;
                 }
                 .img-cafeteria{
-                    width:map-get($img-cafeteria,width );
-                    height:map-get($img-cafeteria,height );
+                    width: 150px;
+                    height: 150px;
                 }
     
         }
-        h3.h-2{
-            color: #9f8b6a;
-            background-color: #2e2e30;
-            margin: 20px;
-            margin-top: 30px;
-            font-size: 25px;
-            padding: 10px;
-            width: auto;
-            height: auto;
-            border: #9f8b6a solid 3px;
-        }
-        article.historia-clase {
-            padding: 20px;
-            margin: 5px;
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-            background-color: #2e2e30;
-            color: #9f8b6a;
-            font-size: large;
-            font-family: Arial, Helvetica, sans-serif;
-               .img-colegio{
-                    width: map-get($img-colegio,width );
-                    height: map-get($img-colegio,height );
-                } 
-                p.parrafo-historia{
-                    font-size: 18px;
-                }
-            }
         h3.titulo-generales{
             color: #9f8b6a;
             background-color: #2e2e30;
@@ -296,12 +268,41 @@
             color: #9f8b6a;
             font-size: large;
             font-family: Arial, Helvetica, sans-serif;
+               .img-colegio{
+                width: 150px;
+                height: 150px;
+                } 
+                p.parrafo-historia{
+                    font-size: 18px;
+                }
+            }
+        h3.titulo-generales{
+            color: #9f8b6a;
+            background-color: #2e2e30;
+            margin: 20px;
+            margin-top: 30px;
+            font-size: 25px;
+            padding: 10px;
+            width: auto;
+            height: auto;
+            border: #9f8b6a solid 3px;
+        }
+        article.historia-clase {
+            padding: 20px;
+            margin: 5px;
+            display: flex;
+            justify-content: space-between;
+            text-align: right;
+            background-color: #2e2e30;
+            color: #9f8b6a;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
                 p.parrafo-historia{
                     font-size: 18px;
                 }
                 .img-personajes{
-                    width: map-get($img-personajes,width );
-                    height: map-get($img-personajes,height );
+                    width: 150px;
+                    height: 150px;
                 } 
                
     
@@ -355,9 +356,9 @@
                         margin-left: auto;
                         margin-right: auto;
                             .peliculas-img{
-                                height:map-get($peliculas-img, height );
-                                width: map-get($peliculas-img, width );
-                                margin-right:map-get($peliculas-img, margin-right);
+                                height: 200px;
+                                width: 145px;
+                                margin-right:2px;
                             }
                             p.parrafo-peli {
                                 padding: 10px;
@@ -410,7 +411,6 @@
                 div.libros-contenedores {
                     display: flex;
                     background-color: #2e2e30;
-                    border: #9f8b6a solid 2px;
                     width: 320px;
                     height: 230px;
                     color: #9f8b6a;
@@ -428,8 +428,8 @@
                     
                     }
                     .libros-img{
-                        height:map-get($libros-img, height);
-                        width:map-get($libros-img,width);
+                        height: 200px;
+                        width: 150px;
                     }
                 
                 }
@@ -443,8 +443,8 @@
     
         main.main-merchandising{
             .img-merchandising{
-                height: map-get($img-merchandising,height );
-                width: map-get($img-merchandising,width );
+                height: 250px;
+                width: 200px;
                 
                 }
         

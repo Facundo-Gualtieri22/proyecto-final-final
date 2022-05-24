@@ -1,4 +1,4 @@
-@import "./estilos/mixin";
+
 
 @media (max-width:451px) {
 	
@@ -191,7 +191,7 @@
   
     section.grid-historia{
         display: grid;
-        grid-template-rows: 90px 115px 205px 115px 205px 115px 205px;
+        grid-template-rows: 90px 95px 205px 95px 255px 95px 255px;
         grid-template-areas: 
         "t-1" "h-1"
         "p-1 img-cafeteria"
@@ -200,7 +200,7 @@
         "h-3" 
         "p3 img-personajes";
     
-       h1.t-1 {
+       h1.titulo-siguientes {
 		height: 41px;
 		width: 150px;
 		margin: 18px;
@@ -214,9 +214,14 @@
 		font-family: Arial, Helvetica, sans-serif;
 		text-align: center;;
         }
-        h3.h-1{
-            @include titulo-generales( #9f8b6a, #2e2e30, 20px, 30px, 15px, 10px, auto, 40px, #9f8b6a solid 3px );
-           
+        h3.titulo-generales{
+            color: #9f8b6a;
+           background-color: #2e2e30;
+            font-size: 15px;
+           padding: 10px;
+            width: auto;
+           height: 40px;
+            border: #9f8b6a solid 3px;
         }
         article.historia-clase {
 			padding: 20px;
@@ -230,23 +235,31 @@
 			font-family: Arial, Helvetica, sans-serif;
                 p.parrafo-historia{
                     font-size: 10px;
+                    
                 }
                 .img-cafeteria{
                     width: 100px;
                     height: 100px;
+                    display: none;
                 }
     
         }
-        h3.h-2{
-            @include titulo-generales( #9f8b6a, #2e2e30, 20px, 30px, 15px, 10px, auto, 40px, #9f8b6a solid 3px );
-
+        h3.titulo-generales{
+            color: #9f8b6a;
+           background-color: #2e2e30;
+            margin-top: 30px;
+           font-size: 15px;
+           padding: 10px;
+            width: auto;
+           height: 40px;
+            border: #9f8b6a solid 3px;
         }
         article.historia-clase {
 			padding: 20px;
 			margin: 5px;
 			display: flex;
 			justify-content: space-between;
-			text-align: center;
+            text-align: center;
 			background-color: #2e2e30;
 			color: #9f8b6a;
 			font-size: large;
@@ -254,31 +267,40 @@
                .img-colegio{
                     width: 100px;
                     height: 100px;
+                    display: none;
                 } 
                 p.parrafo-historia{
                     font-size: 10px;
+                    
                 }
             }
         h3.titulo-generales{
-            @include titulo-generales( #9f8b6a, #2e2e30, 20px, 30px, 15px, 10px, auto, 40px, #9f8b6a solid 3px );
-
+            color: #9f8b6a;
+            background-color: #2e2e30;
+            font-size: 15px;
+            padding: 10px;
+            width: auto;
+            height: 40px;
+            border: #9f8b6a solid 3px;
         }
         article.historia-clase {
 			padding: 20px;
 			margin: 5px;
 			display: flex;
+            text-align: center;
 			justify-content: space-between;
-			text-align: center;
 			background-color: #2e2e30;
 			color: #9f8b6a;
 			font-size: large;
 			font-family: Arial, Helvetica, sans-serif;
                 p.parrafo-historia{
-                    font-size: 10px;
+                    font-size: 10px;			
+                    
                 }
                 .img-personajes{
                     width: 100px;
                     height: 100px;
+                    display: none;
                 } 
                
     
@@ -306,9 +328,16 @@
         div.div-peli{
             section.section-peli{
                 h3.titulo-generales{
-                    @include titulo-generales( #9f8b6a, #2e2e30, 20px, 30px, 15px, 10px, auto, 40px, #9f8b6a solid 3px );
-
-                    }
+                    color: #9f8b6a;
+                   background-color: #2e2e30;
+                   margin: 20px;
+                   margin-top: 30px;
+                   font-size: 15px;
+                   padding: 10px;
+                    width: auto;
+                   height: 40px;
+                    border: #9f8b6a solid 3px;
+                }
                     div.contenedores-peliculas {
                         display: flex;
                         background-color: #2e2e30;
@@ -367,9 +396,16 @@
                 text-align: center;
             }
             section.libros-seccion{
-                h3.titulo-generales {
-                    @include titulo-generales( #9f8b6a, #2e2e30, 20px, 30px, 15px, 10px, auto, 40px, #9f8b6a solid 3px );
-
+                h3.titulo-generales{
+                    color: #9f8b6a;
+                   background-color: #2e2e30;
+                   margin: 20px;
+                   margin-top: 30px;
+                   font-size: 15px;
+                   padding: 10px;
+                    width: auto;
+                   height: 20px;
+                    border: #9f8b6a solid 3px;
                 }
                 div.libros-contenedores {
                     display: flex;
