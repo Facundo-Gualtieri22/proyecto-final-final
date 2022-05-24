@@ -142,7 +142,7 @@ footer.redes-sociales {
 
 section.grid-historia {
   display: grid;
-  grid-template-rows: 100px 170px 350px 170px 350px 170px 350px;
+  grid-template-rows: 100px 170px 350px 170px 350px 170px 500px;
   grid-template-areas: "t-1" "h-1" "p-1 img-cafeteria" "img-colegio p-2"  "h-2" "h-3"  "p3 img-personajes"; }
   section.grid-historia h1.titulo-siguientes {
     height: 60px;
@@ -228,7 +228,8 @@ section.grid-historia {
     background-color: #2e2e30;
     color: #9f8b6a;
     font-size: large;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto; }
     section.grid-historia article.historia-clase p.parrafo-historia {
       font-size: 20px; }
     section.grid-historia article.historia-clase .img-personajes {
@@ -502,7 +503,7 @@ main.main-merchandising section p.parrafo-clase {
       padding: 10px; }
   section.grid-historia {
     display: grid;
-    grid-template-rows: 90px 125px 255px 125px 375px 125px 255px;
+    grid-template-rows: 90px 125px 455px 125px 475px 125px 750px;
     grid-template-areas: "t-1" "h-1" "p-1 img-cafeteria" "img-colegio p-2"  "h-2" "h-3"  "p3 img-personajes"; }
     section.grid-historia h1.titulo-siguientes {
       height: auto;
@@ -541,7 +542,8 @@ main.main-merchandising section p.parrafo-clase {
         font-size: 5px; }
       section.grid-historia article.historia-clase .img-cafeteria {
         width: 150px;
-        height: 150px; }
+        height: 150px;
+        display: none; }
     section.grid-historia h3.titulo-generales {
       color: #9f8b6a;
       background-color: #2e2e30;
@@ -564,7 +566,8 @@ main.main-merchandising section p.parrafo-clase {
       font-family: Arial, Helvetica, sans-serif; }
       section.grid-historia article.historia-clase .img-colegio {
         width: 150px;
-        height: 150px; }
+        height: 150px;
+        display: none; }
       section.grid-historia article.historia-clase p.parrafo-historia {
         font-size: 18px; }
     section.grid-historia h3.titulo-generales {
@@ -591,7 +594,8 @@ main.main-merchandising section p.parrafo-clase {
         font-size: 18px; }
       section.grid-historia article.historia-clase .img-personajes {
         width: 150px;
-        height: 150px; }
+        height: 150px;
+        display: none; }
   main.main-peli h1.titulo-siguientes {
     height: auto;
     width: 150px;
@@ -842,7 +846,7 @@ main.main-merchandising section p.parrafo-clase {
       padding: 10px; }
   section.grid-historia {
     display: grid;
-    grid-template-rows: 90px 95px 205px 95px 255px 95px 255px;
+    grid-template-rows: 90px 95px 305px 95px 355px 95px 455px;
     grid-template-areas: "t-1" "h-1" "p-1 img-cafeteria" "img-colegio p-2"  "h-2" "h-3"  "p3 img-personajes"; }
     section.grid-historia h1.titulo-siguientes {
       height: 41px;
