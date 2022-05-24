@@ -320,8 +320,8 @@ main.main-libros section.libros-seccion div.libros-contenedores {
   display: flex;
   background-color: #2e2e30;
   border: #9f8b6a solid 2px;
-  width: 700px;
-  height: 550px;
+  width: auto;
+  height: auto;
   color: #9f8b6a;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
@@ -333,10 +333,12 @@ main.main-libros section.libros-seccion div.libros-contenedores {
   padding: 25px; }
   main.main-libros section.libros-seccion div.libros-contenedores p {
     font-size: 20px;
-    text-align: center; }
+    text-align: left;
+    margin: 10px; }
   main.main-libros section.libros-seccion div.libros-contenedores .libros-img {
     height: 450px;
-    width: 350px; }
+    width: 350px;
+    margin: 10px; }
 
 main.main-merchandising .img-merchandising {
   height: 600px;
@@ -353,8 +355,8 @@ main.main-merchandising section p.parrafo-clase {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #9f8b6a;
-  width: 500px;
-  height: 200px;
+  width: auto;
+  height: auto;
   padding: 10px;
   margin: 1px;
   margin-left: 100px;
@@ -671,7 +673,7 @@ main.main-merchandising section p.parrafo-clase {
   main.main-libros section.libros-seccion div.libros-contenedores {
     display: flex;
     background-color: #2e2e30;
-    width: 420px;
+    width: auto;
     height: auto;
     color: #9f8b6a;
     font-size: 13px;
@@ -686,9 +688,9 @@ main.main-merchandising section p.parrafo-clase {
       text-align: center;
       margin-right: 10%; }
     main.main-libros section.libros-seccion div.libros-contenedores .libros-img {
-      height: 200px;
-      width: 150px;
-      margin-left: 10%; }
+      height: 250px;
+      width: 180px;
+      margin-top: 80px; }
   main.main-merchandising .img-merchandising {
     height: 250px;
     width: 200px; }
@@ -699,8 +701,8 @@ main.main-merchandising section p.parrafo-clase {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     color: #9f8b6a;
-    width: 195px;
-    height: 150px;
+    width: auto;
+    height: auto;
     padding: 5px;
     margin: 20px;
     margin-left: 20px;
@@ -1009,9 +1011,9 @@ main.main-merchandising section p.parrafo-clase {
   main.main-libros section.libros-seccion div.libros-contenedores {
     display: flex;
     background-color: #2e2e30;
-    border: #9f8b6a solid 2px;
-    width: 320px;
-    height: 230px;
+    border: none;
+    width: auto;
+    height: auto;
     color: #9f8b6a;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
@@ -1037,8 +1039,8 @@ main.main-merchandising section p.parrafo-clase {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8px;
     color: #9f8b6a;
-    width: 195px;
-    height: 90px;
+    width: auto;
+    height: auto;
     padding: 5px;
     margin: 50px;
     margin-left: 20px;
