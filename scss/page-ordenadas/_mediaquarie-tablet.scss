@@ -391,7 +391,7 @@
                 padding: 15px;
                 color: rgb(174, 151, 38);
                 background-color: #2e2e30;
-                border: solid 3px #9f8b6a;
+                // border: solid 3px #9f8b6a;
                 font-size: 22px;
                 font-family: Arial, Helvetica, sans-serif;
                 text-align: center;
@@ -411,25 +411,28 @@
                 div.libros-contenedores {
                     display: flex;
                     background-color: #2e2e30;
-                    width: 320px;
-                    height: 230px;
+                    width: 420px;
+                    height: auto;
                     color: #9f8b6a;
                     font-size: 13px;
                     font-family: Arial, Helvetica, sans-serif;
-                    text-align: left;
-                    margin: 20px;
+                    text-align: center;
+                    margin: 120px;
                     margin-top: 0px;
-                    padding: 8px;
+                    padding: 12px;
+                    border: none;
                 
                     p{
                         font-size: 18px;
                         text-align: center;
+                        margin-right: 10%;
                         
                     
                     }
                     .libros-img{
                         height: 200px;
                         width: 150px;
+                        margin-left: 10%;
                     }
                 
                 }
