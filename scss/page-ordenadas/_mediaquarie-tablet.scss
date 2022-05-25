@@ -193,7 +193,7 @@
   
     section.grid-historia{
         display: grid;
-        grid-template-rows: 90px 125px 455px 125px 475px 125px 750px;
+        grid-template-rows: 90px 125px 455px 125px 475px 125px 780px;
         grid-template-areas: 
         "t-1" "h-1"
         "p-1 img-cafeteria"
@@ -393,7 +393,6 @@
                 padding: 15px;
                 color: rgb(174, 151, 38);
                 background-color: #2e2e30;
-                // border: solid 3px #9f8b6a;
                 font-size: 22px;
                 font-family: Arial, Helvetica, sans-serif;
                 text-align: center;
