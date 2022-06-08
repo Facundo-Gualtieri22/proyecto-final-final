@@ -131,14 +131,6 @@ footer.redes-sociales {
   margin-right: 0%;
   margin-bottom: 0%;
   display: flex; }
-  footer.redes-sociales .instagram-img {
-    height: 50px;
-    width: 50px;
-    padding: 10px; }
-  footer.redes-sociales .wpp-img {
-    height: 50px;
-    width: 50px;
-    padding: 10px; }
 
 section.grid-historia {
   display: grid;
@@ -491,18 +483,6 @@ main.main-merchandising section p.parrafo-clase {
     margin-bottom: 0%;
     display: flex;
     justify-content: space-between; }
-    footer.redes-sociales .redes-sociales .redes-tablet {
-      position: absolute;
-      width: 100vw;
-      top: 82vh; }
-    footer.redes-sociales .redes-sociales .instagram-img {
-      height: 50px;
-      width: 50px;
-      padding: 10px; }
-    footer.redes-sociales .redes-sociales .wpp-img {
-      height: 50px;
-      width: 50px;
-      padding: 10px; }
   section.grid-historia {
     display: grid;
     grid-template-rows: 90px 125px 455px 125px 475px 125px 780px;
@@ -703,10 +683,11 @@ main.main-merchandising section p.parrafo-clase {
     color: #9f8b6a;
     width: auto;
     height: auto;
-    padding: 5px;
+    padding: 50px;
     margin: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 400px;
     text-align: center;
     border: #9f8b6a solid 2px; } }
 
@@ -834,18 +815,6 @@ main.main-merchandising section p.parrafo-clase {
     margin-bottom: 0%;
     display: flex;
     justify-content: space-between; }
-    footer.redes-sociales .redes-sociales .redes-tablet {
-      position: absolute;
-      width: 100vw;
-      top: 82vh; }
-    footer.redes-sociales .redes-sociales .instagram-img {
-      height: 50px;
-      width: 50px;
-      padding: 10px; }
-    footer.redes-sociales .redes-sociales .wpp-img {
-      height: 50px;
-      width: 50px;
-      padding: 10px; }
   section.grid-historia {
     display: grid;
     grid-template-rows: 90px 95px 305px 95px 355px 95px 455px;
