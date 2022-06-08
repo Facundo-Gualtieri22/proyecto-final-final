@@ -121,7 +121,7 @@ main section.grid {
     main section.grid div.div-ubicacion .mapa-ubicacion:hover {
       transform: scale(2); }
 
-footer.redes-sociales {
+footer.footer {
   background-color: #2e2e30;
   border: #9f8b6a solid 3px;
   border-bottom: none;
@@ -471,7 +471,7 @@ main.main-merchandising section p.parrafo-clase {
           width: 100px;
           height: 100px;
           margin: auto; }
-  footer.redes-sociales .redes-sociales {
+  footer.footer .footer {
     height: 200px;
     background-color: #2e2e30;
     border: #9f8b6a solid 3px;
@@ -804,7 +804,7 @@ main.main-merchandising section p.parrafo-clase {
         width: 100px;
         height: 100px;
         margin: auto; }
-  footer.redes-sociales .redes-sociales {
+  footer.footer .footer {
     background-color: #2e2e30;
     border: #9f8b6a solid 3px;
     border-bottom: none;
